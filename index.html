@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-3 fw-bold">Clothing Store</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex ">
+                <li class="nav-item fw-bold">
+                    <a href="#sobre-a-loja" class="nav-link">
+                        <i class="bi bi-house-door me-1"></i>
+                        Sobre a Loja
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#eventos" class="nav-link">
+                        <i class="bi bi-calendar-check me-1"></i>
+                        Estilos
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#produtos" class="nav-link">
+                        <i class="bi bi-shop"></i>
+                        Principais Produtos
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#fale-conosco" class="nav-link">
+                        <i class="bi bi-chat-left-text me-1"></i>
+                        Fale conosco
+                    </a>
+                </li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="w-100" src="images/Imagens roupas/slide-1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="w-100" src="images/Imagens roupas/slide-2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="w-100" src="images/Imagens roupas/slide-3.jpg" alt="">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/Imagens roupas/loja-005.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At eveniet dolorum rem nesciunt cumque reprehenderit incidunt magni adipisci eos vitae fuga culpa architecto nam quae impedit perferendis reiciendis, neque sit!
+    
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, vero! Rerum neque eum placeat quaerat repudiandae labore dignissimos libero! Dolorem explicabo commodi delectus ipsa nobis sint repellendus debitis dolores perspiciatis?
+                            </p>
+                            <ul>
+                                <li>
+                                    item 1
+                                </li>
+                                <li>
+                                    item 2
+                                </li>
+                                <li>
+                                    item 3
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Estilo para <span class="text-colored">todas ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/Imagens roupas/moda masculina.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Moda Masculina
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut sit laborum voluptas. Quam, ab, adipisci saepe repellendus quasi accusamus fugit earum vero dolores quod reiciendis consequatur? Aperiam tempore facere minus.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/Imagens roupas/moda feminina.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Moda Feminina
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut sit laborum voluptas. Quam, ab, adipisci saepe repellendus quasi accusamus fugit earum vero dolores quod reiciendis consequatur? Aperiam tempore facere minus.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/Imagens roupas/tenis.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-battery-charging"></i>
+                            Tênis
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut sit laborum voluptas. Quam, ab, adipisci saepe repellendus quasi accusamus fugit earum vero dolores quod reiciendis consequatur? Aperiam tempore facere minus.
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img src="images/Imagens roupas/moda masculina.jpg" alt="" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title text-colored">
+                                <i class="bi bi-calendar-heart-fill"></i>
+                                Moda Masculina
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut sit laborum voluptas. Quam, ab, adipisci saepe repellendus quasi accusamus fugit earum vero dolores quod reiciendis consequatur? Aperiam tempore facere minus.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/Imagens roupas/moda feminina.jpg" alt="" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title text-colored">
+                                <i class="bi bi-arrow-through-heart-fill"></i>
+                                Moda Feminina
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut sit laborum voluptas. Quam, ab, adipisci saepe repellendus quasi accusamus fugit earum vero dolores quod reiciendis consequatur? Aperiam tempore facere minus.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/Imagens roupas/tenis.jpg" alt="" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title text-colored">
+                                <i class="bi bi-battery-charging"></i>
+                                Tênis
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut sit laborum voluptas. Quam, ab, adipisci saepe repellendus quasi accusamus fugit earum vero dolores quod reiciendis consequatur? Aperiam tempore facere minus.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">Produtos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-menu">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#roupas-femininas" class=" fw-bold text-start nav-link text-colored active">Roupas Femininas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#roupas-masculinas" class=" fw-bold text-start nav-link text-colored">Roupas Masculinas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tenis" class=" fw-bold text-start nav-link text-colored">Tênis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camisetas" class=" fw-bold text-start nav-link text-colored">Camisetas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="roupas-femininas">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/calça para feminino.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Calça Jeans feminina</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/calça para feminino.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Calça Jeans feminina</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/calça para feminino.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Calça Jeans feminina</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/calça para feminino.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Calça Jeans feminina</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/calça para feminino.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Calça Jeans feminina</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/calça para feminino.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Calça Jeans feminina</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="tab-pane" id="roupas-masculinas">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/terno para homem.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Terno Masculino</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/terno para homem.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Terno Masculino</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/terno para homem.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Terno Masculino</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/terno para homem.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Terno Masculino</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/terno para homem.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Terno Masculino</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/terno para homem.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Terno Masculino</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tenis">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/tenis para tenis.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis da nike</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/tenis para tenis.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis da nike</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/tenis para tenis.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis da nike</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/tenis para tenis.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis da nike</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/tenis para tenis.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis da nike</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="images/Imagens roupas/tenis para tenis.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis da nike</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="camisetas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/Imagens roupas/camisetas.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">camisetas diferenciadas</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/Imagens roupas/camisetas.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">camisetas diferenciadas</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 formulario">
+                                <label class="form-label fw-bold " for="nome">Seu nome</label>
+                                <input class="form-control" type="text" id="nome" name="nome" >
+                            </div>
+                            <div class="mb-3 formulario">
+                                <label class="form-label fw-bold " for="email">Seu e-mail</label>
+                                <input class="form-control" type="email" id="email" name="email" >
+                            </div>
+                            <div class="mb-3 formulario">
+                                <label class="form-label fw-bold " for="telefone">Número de contato</label>
+                                <input class="form-control" type="tel" id="telefone" name="telefone" >
+                            </div>
+                            <div class="mb-3 formulario">
+                                <label class="form-label fw-bold " for="mensagem">Mensagem</label>
+                                <textarea name="mensagem" id="mensagem" class="form-control" ></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-3">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-3 ms-1 me-1">
+                                    <a href="https://www.instagram.com/felix_hellen/?igshid=MzRlODBiNWFlZA%3D%3D">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-3">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                        </div>
+                        <p>
+                            Rua José Izidio da Silva nº 74, bairro teixeira felix - Bootstrap - PE
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
